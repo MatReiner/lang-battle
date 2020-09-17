@@ -1,0 +1,11 @@
+prefix=/home/runner/.apt/home/runner/.apt/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: libuv
+Description: Development libraries for libuv
+Version: 0.10.36
+Libs: -L${libdir} -luv -lrt -ldl
+Cflags:
+URL: https://github.com/joyent/libuv/

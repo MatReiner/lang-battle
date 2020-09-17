@@ -1,0 +1,7 @@
+#include <stdout.oba>
+
+.main:
+    push Hi
+    push msgln
+    call @
+    ret

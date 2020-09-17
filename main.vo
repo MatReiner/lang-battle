@@ -1,0 +1,6 @@
+import "io.vo";
+
+func main() i32 {
+  io.println("Hi");
+  return 0;
+};
